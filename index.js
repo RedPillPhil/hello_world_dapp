@@ -1,6 +1,6 @@
 
 
-web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.sherpax.io/rpc"));
 asciiToHex = Web3.utils.asciiToHex;
 contractInstance = new web3.eth.Contract(ABI_DEFINITION, CONTRACT_ADDRESS);
 
