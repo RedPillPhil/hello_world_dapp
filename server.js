@@ -5,7 +5,7 @@ const solc = require('solc');
 const fs = require('fs');
 const http = require('http');
 
-const provider = new Web3.providers.HttpProvider("http://localhost:8545")
+const provider = new Web3.providers.HttpProvider("https://mainnet.sherpax.io/rpc")
 const web3 = new Web3(provider);
 const asciiToHex = Web3.utils.asciiToHex;
 
